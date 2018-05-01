@@ -18,12 +18,22 @@ public SimpleCalc(){
 this.a=6;
 this.b=6;
 }
+
+
 public double getSum() {
-    
+
 return this.a+this.b;
 }
 public double getRizn() {
+
 return this.a-this.b;
 }
+public double getMnosh() {
 
+return this.a*this.b;
+}
+public double getDilen() {
+
+return this.a/this.b;
+}
 }
