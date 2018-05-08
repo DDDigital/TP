@@ -36,4 +36,8 @@ public double getDilen() {
 
 return this.a/this.b;
 }
+public double getA() {
+
+return this.a;
+}
 }
