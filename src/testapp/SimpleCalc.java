@@ -14,9 +14,9 @@ public class SimpleCalc {
 private double a;
 private double b;
 
-SimpleCalc() {
-this.a=6;
-this.b=6;
+SimpleCalc(double p1,double p2) {
+this.a=p1;
+this.b=p2;
 }
 
 public double getSum() {
