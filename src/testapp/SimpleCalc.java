@@ -14,10 +14,11 @@ public class SimpleCalc {
 private double a;
 private double b;
 
-SimpleCalc(double p1,double p2) {
-this.a=p1;
-this.b=p2;
+public SimpleCalc(){
+this.a=6;
+this.b=6;
 }
+
 
 public double getSum() {
 
@@ -34,5 +35,9 @@ return this.a*this.b;
 public double getDilen() {
 
 return this.a/this.b;
+}
+public double getA() {
+
+return this.a;
 }
 }
