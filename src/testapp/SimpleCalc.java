@@ -23,4 +23,8 @@ public double getSum() {
 
 return this.a+this.b;
 }
+public double getRizn() {
+
+return this.a-this.b;
+}
 }
