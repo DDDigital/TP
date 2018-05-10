@@ -12,5 +12,8 @@ double b = Double.valueOf(in.nextLine());
 System.out.println("a+b="+(a+b));
 System.out.println("a-b="+(a-b));
 System.out.println("GIT test application");
+System.out.println("GIT test application");
+System.out.println("GIT test application");
+System.out.println("GIT test application");
 }
 }
