@@ -23,20 +23,4 @@ public double getSum() {
 
 return this.a+this.b;
 }
-public double getRizn() {
-
-return this.a-this.b;
-}
-public double getMnosh() {
-
-return this.a*this.b;
-}
-public double getDilen() {
-
-return this.a/this.b;
-}
-public double getA() {
-
-return this.a;
-}
 }
