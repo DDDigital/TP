@@ -27,4 +27,8 @@ public double getRizn() {
 
 return this.a-this.b;
 }
+public double getMult() {
+
+return this.a*this.b;
+}
 }
