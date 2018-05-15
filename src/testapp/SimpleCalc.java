@@ -23,12 +23,16 @@ public double getSum() {
 
 return this.a+this.b;
 }
-public double getRizn() {
+public double getDiff() {
 
 return this.a-this.b;
 }
 public double getMult() {
 
 return this.a*this.b;
+}
+public double getDiv() {
+
+return this.a/this.b;
 }
 }
