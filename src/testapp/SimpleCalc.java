@@ -35,8 +35,4 @@ public double getDiv() {
 
 return this.a/this.b;
 }
-public double getDiv2() {
-
-return this.a/this.b;
-}
 }
