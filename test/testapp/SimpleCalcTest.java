@@ -29,7 +29,7 @@ System.out.println("AfterClass");
 @Test
 public void testGetSum() {
 System.out.println("getSum tested");
-assertEquals(9, sc.getSum(),0.0);
+assertEquals(10, sc.getSum(),0.0);
 }
 /**
 * Test of getDiff method, of class SimpleCalc.
@@ -37,7 +37,7 @@ assertEquals(9, sc.getSum(),0.0);
 @Test
 public void testGetDiff() {
 System.out.println("getDiff tested");
-assertEquals(-1,sc.getDiff(),0.0);
+assertEquals(0,sc.getDiff(),0.0);
 }
 /**
 * Test of getMult method, of class SimpleCalc.
@@ -45,7 +45,7 @@ assertEquals(-1,sc.getDiff(),0.0);
 @Test
 public void testGetMult() {
 System.out.println("getMult tested");
-assertEquals(20,sc.getMult(),0.0);
+assertEquals(25,sc.getMult(),0.0);
 }
 /**
 * Test of getDiv method, of class SimpleCalc.
@@ -53,7 +53,7 @@ assertEquals(20,sc.getMult(),0.0);
 @Test
 public void testGetDiv(){
 System.out.println("getMult tested");
-assertEquals(0.8,sc.getDiv(),0.0);
+assertEquals(1,sc.getDiv(),0.0);
 
 }
 }

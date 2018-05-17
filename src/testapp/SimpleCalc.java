@@ -15,8 +15,8 @@ private double a;
 private double b;
 
 SimpleCalc(double p1,double p2) {
-this.a=p1;
-this.b=p2;
+this.a=5;
+this.b=5;
 }
 
 public double getSum() {
